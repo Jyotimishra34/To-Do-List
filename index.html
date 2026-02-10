@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="/assets/style.css"/>
+    <script src="/assets/script.js" defer></script>
+
+    <title>To Do List</title>
+  </head>
+
+  <body>
+    <div class="container mt-4">
+      <div class="nav-bar">
+        <h2>Todo App - Manage Your Tasks</h2>
+        <p>
+          Stay organized and productive with our simple and intuitive todo
+          application. Create,manage,and track your daily tasks
+        </p>
+      </div>
+      <hr />
+
+      <!-- section 1 -->
+      <div class="row">
+        <div class="task-box">
+          <div class="task-header">
+            <input
+              type="text"
+              id="taskTitle"
+              placeholder="What do you want to do today?"
+            />
+          </div>
+
+          <div class="task-details">
+            <input
+              type="text"
+              id="taskDetails"
+              placeholder="Details (optional)"
+            />
+          </div>
+
+          <div class="task-btn">
+            <button id="addBtn" class="add-task btn btn-primary 4px">
+              Add Task
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- section: form -->
+      <section class="mt-5">
+        <div class="row m-2">
+          <div class="col">
+            <div class="d-flex justify-content-center">
+              <h2>ToDo List</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- section: todo -->
+          <div class="col">
+            <div id="todo" class="d-flex justify-content-center">
+              <h5>ToDo</h5>
+            </div>
+            <div id="todoList" class="d-flex flex-column align-items-center">
+
+                
+              <!-- <h5>ToDo</h5> -->
+              <!-- <div class="card-list-todo">
+                        <span class=""><strong>Task 1</strong> </span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati quidem tenetur, maiores eum tempora ex pariatur, rerum assumenda repellendus fuga unde ducimus possimus consectetur beatae veniam eos temporibus ipsam libero?</p>
+
+                        <select class="choose-option" aria-label="choose option" height="600px">
+                         <option value="todo">ToDo</option>
+                         <option value="in-progress">In Progress</option>
+                         <option value="done">Done</option>
+                        </select>
+                    </div> -->
+            </div>
+          </div>
+
+          <!-- Section: in progress -->
+          <div class="col">
+            <div id="inProgress" class="d-flex justify-content-center">
+                <h5>In Progress</h5>
+              </div>
+              <div id="inProgressList" class="d-flex flex-column align-items-center">
+
+              <!-- <div class="card-list-inProgress">
+                         <span class=""><strong>Task 2</strong> </span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati quidem tenetur, maiores eum tempora ex pariatur, rerum assumenda repellendus fuga unde ducimus possimus consectetur beatae veniam eos temporibus ipsam libero?</p>
+
+                        <select class="choose-option" aria-label="choose option" height="600px">
+                         <option value="todo">ToDo</option>
+                         <option value="in-progress">In Progress</option>
+                         <option value="done">Done</option>
+                        </select>
+
+                    </div> -->
+            </div>
+          </div>
+
+          <!--section: Done -->
+          <div class="col">
+              <div id="done" class="d-flex justify-content-center">
+                <h5>Done</h5>
+              </div>
+              <div id="doneList" class="d-flex flex-column align-items-center"></div>
+
+              <!-- <div class="card-list-done">  
+                         <span class=""><strong>Task 3</strong> </span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati quidem tenetur, maiores eum tempora ex pariatur, rerum assumenda repellendus fuga unde ducimus possimus consectetur beatae veniam eos temporibus ipsam libero?</p>
+
+                        <select class="choose-option" aria-label="choose option" height="600px">
+                         <option value="todo">ToDo</option>
+                         <option value="in-progress">In Progress</option>
+                         <option value="done">Done</option>
+                        </select>
+
+                    </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</html>
