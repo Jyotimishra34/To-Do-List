@@ -1,12 +1,12 @@
  body{
-  background-color: rgb(244, 249, 248);
+  background-color: #eae0d5;
  }
 .task-box {
   display: flex;
   width: 100%;              
   margin: 20px auto;
   padding: 0;
-  border: 1px solid #ccc;
+  border: 1px solid white;
   border-radius: 6px;
   overflow: hidden;        /* joins borders */
 

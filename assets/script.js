@@ -65,7 +65,7 @@ function showTasks() {
 function creatCard (task) {
   let card = document.createElement("div");
         card.className = "card m-2 p-2";
-        card.style.backgroundColor = "bisque";
+        card.style.backgroundColor = "#c6ac8f ";
         card.setAttribute("data-id", task.id); 
 
         card.innerHTML= `
